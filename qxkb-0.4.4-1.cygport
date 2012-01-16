@@ -1,0 +1,5 @@
+inherit qt4-cmake
+
+DESCRIPTION="Qt XKB layout switcher"
+HOMEPAGE="http://code.google.com/p/qxkb/"
+SRC_URI="http://qxkb.googlecode.com/files/${P}.tar.bz2"
