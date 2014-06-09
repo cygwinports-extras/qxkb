@@ -1,0 +1,11 @@
+inherit qt4-cmake
+
+NAME="qxkb"
+VERSION=0.4.4
+RELEASE=1
+CATEGORY="X11"
+SUMMARY="Qt XKB layout switcher"
+DESCRIPTION="Qt XKB layout switcher"
+REQUIRES="setxkbmap"
+HOMEPAGE="http://code.google.com/p/qxkb/"
+SRC_URI="http://qxkb.googlecode.com/files/qxkb-${VERSION}.tar.bz2"
