@@ -1,0 +1,11 @@
+--- origsrc/qxkb-0.4.6/CMakeLists.txt	2013-04-01 05:03:12.000000000 -0500
++++ src/qxkb-0.4.6/CMakeLists.txt	2014-06-08 21:55:09.326338900 -0500
+@@ -70,7 +70,7 @@ set (LANGUAGES
+ )
+ 
+ set (TRANSLATIONS_PATH
+-        ../language)
++        ${CMAKE_SOURCE_DIR}/language)
+ 
+ foreach (LANGUAGE ${LANGUAGES})
+         set (TS ${TRANSLATIONS_PATH}/${LANGUAGE}.ts)
